@@ -1,6 +1,6 @@
 import { createTheme, PaletteOptions } from "@mui/material";
 
-const pallete: PaletteOptions = {
+const palette: PaletteOptions = {
     mode: 'dark',
     primary: {
         main: '#FFCD00',
@@ -12,7 +12,7 @@ const pallete: PaletteOptions = {
 };
 
 const theme = createTheme({
-    
+    palette,
 
 });
 export default theme;
