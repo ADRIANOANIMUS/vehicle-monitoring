@@ -5,11 +5,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline/>
-      <AppBar>
-        <Toolbar>
-          <Typography variant="h6">Full Cycle Delivery</Typography>
-        </Toolbar>
-      </AppBar>
+      
     </ThemeProvider>
   );
 
