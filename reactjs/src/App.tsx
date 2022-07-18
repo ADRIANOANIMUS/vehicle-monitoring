@@ -9,9 +9,7 @@ function App() {
       <Navbar/>
       <Grid container>
         <Grid item></Grid>
-        <Grid item></Grid>     
-
-
+        <Grid item></Grid>
       </Grid>
     </ThemeProvider>
   );
