@@ -7,6 +7,10 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline/>
       <Navbar/>
+      <Grid container>
+        
+
+      </Grid>
     </ThemeProvider>
   );
 
