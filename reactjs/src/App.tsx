@@ -1,4 +1,4 @@
-import { CssBaseline, Grid, MenuItem, ThemeProvider} from "@mui/material";
+import { Button, CssBaseline, Grid, MenuItem, ThemeProvider} from "@mui/material";
 import { Navbar } from "./components/Navbar";
 import theme from './theme';
 
@@ -13,9 +13,12 @@ function App() {
             <select>
               <MenuItem value="">
                 <em>Select one route</em>
-
+              </MenuItem>
+              <MenuItem value="">
+                Route 1
               </MenuItem>
             </select>
+            <Button type="submit">Start Route</Button>
           </form>
         </Grid>
         <Grid item xs={12} sm={9}></Grid>
