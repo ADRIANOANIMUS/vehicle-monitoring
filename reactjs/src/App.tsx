@@ -18,7 +18,7 @@ function App() {
                 Route 1
               </MenuItem>
             </select>
-            <Button type="submit">Start Route</Button>
+            <Button type="submit" variant="contained">Start Route</Button>
           </form>
         </Grid>
         <Grid item xs={12} sm={9}></Grid>
