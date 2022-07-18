@@ -6,7 +6,7 @@ export function Navbar() {
         <AppBar position="static" enableColorDark>
         <Toolbar>
           <IconButton color="inherit" edge="start">
-
+            <DriveEtaIcon/>
           </IconButton>
           <Typography variant="h6">Full Cycle Delivery</Typography>
         </Toolbar>
