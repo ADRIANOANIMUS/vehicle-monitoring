@@ -18,7 +18,9 @@ function App() {
                 Route 1
               </MenuItem>
             </select>
+            <div style={{textAlign:'center'}}>
             <Button type="submit" variant="contained">Start Route</Button>
+            </div>
           </form>
         </Grid>
         <Grid item xs={12} sm={9}></Grid>
