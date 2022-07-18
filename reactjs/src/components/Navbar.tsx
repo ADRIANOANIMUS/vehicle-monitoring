@@ -4,7 +4,7 @@ import DriveEtaIcon from '@mui/icons-material/DriveEta';
 export function Navbar() {
     return(
         <AppBar>
-        <Toolbar>
+        <Toolbar position="static" enableColorDark>
           <IconButton color="inherit" edge="start">
 
           </IconButton>
